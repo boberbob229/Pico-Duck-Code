@@ -1,0 +1,13 @@
+DELAY 500
+GUI r
+DELAY 500
+STRING powershell -NoProfile -EecutionPolicy Bypass -Command "Get-ExecutionPolicy -List"
+DELAY 1000
+ENTER
+DELAY 500
+STRING exit
+DELAY 500
+ENTER
+DELAY 500
+GUI W
+DELAY 500
